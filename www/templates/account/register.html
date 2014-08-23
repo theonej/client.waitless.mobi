@@ -1,0 +1,11 @@
+﻿<div class="register">
+    <form name="registerForm">
+        <h3>Tell us a little bit about yourself</h3>
+
+        <label>Email Address</label>
+        <input type="email" ng-model="user.emailAddress" required autofocus="autofocus" />
+
+        <button ng-click="register();">Continue</button>
+    </form>
+</div>
+<loading-indicator></loading-indicator>

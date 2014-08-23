@@ -1,0 +1,13 @@
+﻿
+<div class="login">
+    <form name="loginForm">
+        <label for="emailInput">Email Address</label>
+        <input type="email" ng-model="user.emailAddress" autofocus required />
+
+        <label for="emailInput">Password</label>
+        <input type="password" ng-model="user.password" required />
+
+        <button ng-click="authenticateUser();">Login</button>
+    </form>
+</div>
+<loading-indicator></loading-indicator>

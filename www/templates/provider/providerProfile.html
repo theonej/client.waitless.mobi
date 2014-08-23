@@ -1,0 +1,28 @@
+﻿<div ng-init="initialize();">
+    <h1>{{provider.name}}</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th colspan="2"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in providerInventory">
+                <td>{{item.itemType.name}}</td>
+                <td>{{item.itemType.priceDollarsUS | currency}}</td>
+                <td>
+                    <input type="number" value="0" ng-model="item.requestedCount" class="small-input" />
+                </td>
+                <td>
+                    <a href="javascript:void(null);" ng-click="incrementCount(item);"><i class="fa fa-lg fa-plus-circle"></i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button ng-click="beginOrder();">Order</button>
+</div>
+
+<loading-indicator></loading-indicator>

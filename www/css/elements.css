@@ -1,0 +1,97 @@
+﻿input
+{
+    line-height:35px;
+    width:250px;
+    border-radius:10px;
+    font-size:large;
+}
+
+textarea
+{
+    height:200px;
+    width:250px;border-radius:10px;
+    font-size:large; 
+    line-height:35px;
+}
+
+div
+{
+    text-align:left;
+}
+
+select
+{
+    line-height:35px;
+    width:250px;
+    border-radius:10px;
+    font-size:large;
+    font-weight:100;
+}
+
+h3
+{
+    font-weight:100;
+    font-size:x-large;
+}
+
+button
+{
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+    background: #c32534;
+    padding: 10px 12px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+    border:none;
+}
+
+table
+{
+    background-color:#fefefe;
+    border-radius:10px;
+    border:solid 1px #efefef;
+    margin:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+th
+{
+    text-align:left;
+    border-bottom:solid 1px #efefef;
+    color:#c32534;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+a
+{
+    color:#c32534;
+}
+
+a:visited
+{
+    color:#c32534;
+}
+
+a:hover
+{
+    color:#c32534;
+}
+
+a:active
+{
+    color:#c32534;
+}
+
+i
+{
+    width:25px;
+    height:25px;
+}
